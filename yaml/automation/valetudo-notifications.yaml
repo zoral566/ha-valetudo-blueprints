@@ -105,9 +105,9 @@ variables:
       default_msg: "Everything is working fine."
     Hungary:
       title: Porszivo
-      success_msg: "A takarítás befejeződött {{ now().strftime('%-H:%M') }}."
-      error_msg: "A robot hibát észlelt: {{ states( error_message_sensor ) }}"
-      default_msg: Minden rendben van..
+      success_msg: "A takaritas befejezodott {{ now().strftime('%-H:%M') }} ."
+      error_msg: "A robot hibat eszlelt: {{ states( error_message_sensor ) }}"
+      default_msg: Minden rendben van.
 
   notify_targets: >-
       {% set ns = namespace(targets=[]) %}
