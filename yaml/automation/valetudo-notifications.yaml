@@ -1,7 +1,7 @@
 blueprint:
-  name: 'Valetudo: Notifications'
+  name: 'Valetudo: Értesítések'
   description: Sends a notification after a successful clean-up run and on error.
-  source_url: https://github.com/mundschenk-at/ha-valetudo-blueprints/blob/main/yaml/automation/valetudo-notifications.yaml
+  source_url: https://github.com/zoral566/ha-valetudo-blueprints/blob/main/yaml/automation/valetudo-notifications.yaml
   domain: automation
   homeassistant:
     min_version: 2022.6.0
@@ -57,7 +57,7 @@ blueprint:
         select:
           options:
             - English
-            - German
+            - Hungary
 
 trigger_variables:
   rendered_map_sensor: !input rendered_map
@@ -103,11 +103,15 @@ variables:
       success_msg: "Cleaning task succeeded at {{ now().strftime('%-H:%M') }}."
       error_msg: "The robot has encountered an issue: {{ states( error_message_sensor ) }}"
       default_msg: "Everything is working fine."
-    German:
-      title: Staubsauger
-      success_msg: "Die Reinigung wurde um {{ now().strftime('%-H:%M') }} Uhr erfolgreich abgeschlossen."
-      error_msg: "Der Staubsauger hat ein Problem: {{ states( error_message_sensor ) }}"
-      default_msg: Alles gut.
+    Hungary:
+      title: Porszívó
+      success_msg: "A takarítás befejeződött {{ now().strftime('%-H:%M') }} , {{
+        states("sensor.valetudo_svetlana_current_statistics_area") | int //
+        10000 }} m2 , {{
+        states("sensor.valetudo_svetlana_current_statistics_time") | int // 60
+        }} perc alatt ."
+      error_msg: "A robot hibát észlelt: {{ states( error_message_sensor ) }}"
+      default_msg: Minden rendben van.
 
   notify_targets: >-
       {% set ns = namespace(targets=[]) %}
