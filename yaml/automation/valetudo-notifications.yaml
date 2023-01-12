@@ -105,7 +105,7 @@ variables:
       default_msg: "Everything is working fine."
     German:
       title: Porszivo
-      success_msg: "A takarítás befejeződött {{ states("sensor.valetudo_svetlana_current_statistics_area") | int //10000 }} m2 , {{ states("sensor.valetudo_svetlana_current_statistics_time") | int // 60 }} perc alatt , {{ now().strftime('%-H:%M') }} ."
+      success_msg: "A takarítás befejeződött {{ states("sensor.valetudo_svetlana_current_statistics_area") | int //10000 }} m2 , {{ now().strftime('%-H:%M') }} ."
       error_msg: "A robot hibát észlelt: {{ states( error_message_sensor ) }}"
       default_msg: Minden rendben van..
 
