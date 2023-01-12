@@ -13,7 +13,7 @@ Parameters:
 *   MQTT Topic (without Valetudo and robot prefix)
 *   Payload
 
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fmundschenk-at%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fscript%2Fvaletudo-send-vacuum-command.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fzoral566%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fscript%2Fvaletudo-send-vacuum-command.yaml)
 
 ### Clean Rooms
 
@@ -24,13 +24,13 @@ Parameters:
 *   Iterations (the number of cleaining passes)
 *   Keep room ordering (ignored for Dreame robots)
 
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fmundschenk-at%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fscript%2Fvaletudo-clean-rooms.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fzoral566%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fscript%2Fvaletudo-clean-rooms.yaml)
 
 ### Trigger Auto-Empty Dock
 
 Triggers the auto-empty dock.
 
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fmundschenk-at%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fscript%2Fvaletudo-trigger-auto-empty-dock.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fzoral566%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fscript%2Fvaletudo-trigger-auto-empty-dock.yaml)
 
 ## Automations
 
@@ -42,4 +42,4 @@ Available languages:
 *   English
 *   Hungary
 
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fmundschenk-at%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fautomation%2Fvaletudo-notifications.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fzoral566%2Fha-valetudo-blueprints%2Fblob%2Fmain%2Fyaml%2Fautomation%2Fvaletudo-notifications.yaml)
